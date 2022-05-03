@@ -17,6 +17,7 @@ header {
     align-items: center;
 
     position: fixed;
+    z-index: 999;
 }
 
 header .boolean-logo {
