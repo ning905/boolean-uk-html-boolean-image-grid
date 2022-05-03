@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: #011534;
+
+    height: 60px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+}
+
+.logo {
+    height: 50px;
+}
+
+main {
+    padding: 3rem 20%;
+    display: grid;
+    place-items: center;
+    gap: 1.5rem;
+}
+
+main img {
+    margin-top: 4rem;
+    width: 40%;
+}
+
+
+p {
+    line-height: 1.3rem;
+}
+
+footer {
+    color: white;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    padding-top: 1rem;
+}
+
